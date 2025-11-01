@@ -1,0 +1,121 @@
+# ==================== ENVIRONMENT ====================
+# Ignore all local environment files
+.env
+.env.*
+
+# ==================== PYTHON/BACKEND ====================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.venv/
+virtualenv/
+
+# Test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Django/Flask
+instance/
+staticfiles/
+media/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ==================== NODE/FRONTEND ====================
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnp.*
+
+# Build/Test output
+/build
+/dist
+/coverage
+
+# Caches & Misc
+.npm
+.eslintcache
+*.tgz
+
+# Yarn caches
+.yarn/cache
+.yarn/unplugged
+.yarn-integrity
+
+# ==================== IDE/EDITOR ====================
+# VS Code (ignore all, but keep project settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+
+# ==================== OS ====================
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+[Dd]esktop.ini
+
+# ==================== DATABASE & LOGS ====================
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== MISC / TEMP ====================
+# Docker overrides
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.pid
